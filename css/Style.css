@@ -603,6 +603,10 @@ padding: 6px;
         position: relative;
        display:none;
     }
+    .logo img {
+    height: 45px;
+    border-radius: 65px;
+}
     .head-left .menu {
         display: flex;
         justify-content: center;
