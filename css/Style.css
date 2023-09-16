@@ -221,6 +221,27 @@ color: #1a1710;
     z-index: 2;
     display: flex;
     position: relative;
+    animation-name:im ;
+    animation-iteration-count: 1;
+    animation-duration:2s;
+    animation-delay: 0.2s;
+    transition: all 1s ease;
+}
+@keyframes im {
+    0%{
+        opacity: 0;
+        width: 60%;
+      
+    }
+    50%{
+        opacity: 0.75;
+
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+       
+    }
     
 }
 
