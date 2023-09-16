@@ -194,7 +194,7 @@ color: #1a1710;
 
     justify-content: center;
     margin-top: 38px;
- 
+ margin-left: 22px;
     text-transform: capitalize;
     font-size: 46px;
     font-family: 'Crete Round', serif;
@@ -202,6 +202,7 @@ color: #1a1710;
 .first-sec .left-sec p{
     font-family: 'Raleway',  sans-serif;
     margin-top: 16px;
+    margin-left: 24px;
     font-size: 22px;
 
 
