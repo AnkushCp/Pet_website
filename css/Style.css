@@ -162,8 +162,29 @@ color: #1a1710;
     position: relative;
     width: 50%;
     height: 21rem;
+  animation-name:tx ;
+    animation-iteration-count: 1;
+    animation-duration:2s;
+    animation-delay: 0.2s;
+    transition: all 1s ease;
 }
+@keyframes tx {
+    0%{
+        opacity: 0;
+        left:-176px;
+      
+    }
+    50%{
+        opacity: 0.75;
 
+    }
+    100%{
+        opacity: 1;
+        left :0px;
+       
+    }
+    
+}
 .first-sec .left-sec .tex{
     width: 80%;
 
