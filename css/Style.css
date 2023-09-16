@@ -607,7 +607,7 @@ padding: 6px;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* margin-left: 55px; */
+         margin-left: 13px; 
     }
     .head-left .menu ul a {
         text-decoration: none;
