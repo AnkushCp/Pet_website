@@ -729,4 +729,33 @@ padding: 6px;
         width: 100%;
         height: 30%;
     }
+    .foot .right-foot .menu1, .foot .right-foot .menu2 {
+    padding: 2px;
+}
+    .foot .left-foot h3 a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(8, 10, 12);
+}
+    .foot .left-foot h4 {
+    font-size: 13px;
+    /* padding: 7px; */
+    color: rgb(3, 4, 5);
+    font-family: 'Raleway', sans-serif;
+}
+    .foot .right-foot .menu1 ul a, .foot .right-foot .menu2 ul a {
+    margin-top: -6px;
+    font-size: 14px;
+    font-weight: 900;
+    color: rgb(3 4 5 / 75%);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    transition: -11.8s;
+}
+    .third-sec {
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 46px;
+}
     }
