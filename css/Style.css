@@ -599,6 +599,10 @@ padding: 6px;
     .head-right {
         width: 0%;
     }
+    .head-right .button-group {
+        position: relative;
+       display:none;
+    }
     .head-left .menu {
         display: flex;
         justify-content: center;
