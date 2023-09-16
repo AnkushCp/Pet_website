@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+ /* styles.css */
+
+/* Initial styling for label and input */
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: top 0.2s, font-size 0.2s;
+    transform-origin: 0 0;
+    transform: scale(1);
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style the label when the input is focused */
+.input:focus + .label {
+    top: -10px;
+    font-size: 12px;
+    color: #007bff;
+    transform: scale(0.8); /* Scale down the label */
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="form-group">
+        <input type="text" class="input" id="textfield" required>
+        <label class="label" for="textfield">Your Label</label>
+    </div>
+
+    <!-- Add more form groups as needed -->
+
+</body>
+</html>

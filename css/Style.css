@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Raleway:wght@100;200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:2.2 rem;
+    scroll-behavior: smooth;
+}
+.hea{
+    
+    display: flex;
+}
+.head-left{
+    width: 50%;
+    display: flex;
+   
+}
+.logo{
+
+    /* width: 98px;
+    height: 92px;
+    margin: 7px;
+    border-radius: 54px; */
+}
+.logo img{
+    height: 57px;
+    border-radius: 65px;
+}
+.head-left .menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+}
+.head-left .menu ul{
+list-style:none ;
+margin-right: 56px;
+}
+.head-left .menu ul a{
+text-decoration: none;
+font-size: 19px;
+font-family: 'Raleway', sans-serif;
+color: #1a1710;
+
+}
+.head-left .menu ul a:hover{
+  
+    color: #cfa938;
+}
+
+/*________________________ header right style ________________________________________________________________________________*/
+.head-right{
+   
+    width: 50%;
+    display: flex;
+
+    
+}
+.head-right .button-group{
+    position: relative;
+    left: 400px;
+    z-index: 6;
+    display: flex;
+    /* margin-left: 478px; */
+    align-items: center;
+
+}
+.head-right .button-group .ham{
+    display: none;
+}
+.head-right .button-group ul{
+    margin-right: 29px;
+}
+.head-right .button-group ul a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: #1a1710;
+}
+.head-right .button-group ul a:hover{
+    color: #cfa938;
+}
+.head-right .button-group button{
+    font-size: 18px;
+    padding: 14px;
+    border: none;
+    color: antiquewhite;
+    background: #dcae23;
+    border-radius: 30px;
+    font-family: 'Raleway''Raleway', sans-serif;
+}
+.head-right .button-group button:hover{
+    background: #1a1710;
+    color: #cfa938;
+}
+
+@media (max-width: 768px) {
+.head-right{
+    
+    width: 14%;
+    
+}
+.head-right .button-group ul a
+{
+    display: none;
+  
+}
+.head-right .button-group button{
+    display: none;
+  
+}
+.head-right .button-group .ham{
+    display: flex;
+}
+}
+/* Social_____________________________________________________ */
+.social{
+    margin-top: 23px;
+    position: fixed;
+    left: -22px;
+  z-index: 74;
+  margin-bottom: 10px;
+
+}
+.social a{
+  z-index: 4;
+
+    display: flex;
+    position: relative;
+    width: 115px;
+ 
+}
+.social img{
+  z-index: 4;
+
+    padding: 6px;
+    position: relative;
+    width: 47%;
+    display: flex;
+    margin: auto;
+
+  transition: 0.3s;
+}
+.social img:hover{
+
+    width: 57%;
+    
+  
+}
+.social a:hover ~ .social img{
+    width: 57%;
+
+}
+/* ...___________________________________ */
+
+/* ________________left side of the first section css style_________________________________________ */
+.first-sec{
+    display: flex;
+}
+.first-sec .left-sec{
+    margin-top: 209px;
+    position: relative;
+    width: 50%;
+    height: 21rem;
+}
+
+.first-sec .left-sec .tex{
+    width: 80%;
+
+    margin: auto;
+}
+.first-sec .left-sec h1{
+
+    justify-content: center;
+    margin-top: 38px;
+ 
+    text-transform: capitalize;
+    font-size: 46px;
+    font-family: 'Crete Round', serif;
+}
+.first-sec .left-sec p{
+    font-family: 'Raleway',  sans-serif;
+    margin-top: 16px;
+    font-size: 22px;
+
+
+}
+.first-sec .left-sec .tex button{
+    font-family: 'Raleway';
+    margin-top: 32px;
+    margin-right: 23px;
+    padding: 0 22px 36px;
+    font-size: 18px;
+    padding: 14px;
+    border: none;
+    color: antiquewhite;
+    background: #1a1710;
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+}
+.first-sec .left-sec .tex button:hover{
+    background-color: #020202;
+    font-family: 'Raleway';
+}
+.first-sec .left-sec .tex button:active
+{
+    color: #020202;
+    background:#dbaa18 ;
+    scale: 0.85;
+}
+/* ________________right side of the first section css style_________________________________________ */
+
+.first-sec .right-sec{
+    width: 50%;
+    display: flex;
+}
+
+.first-sec .right-sec .first-sec-img img{
+    left: 17px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    position: relative;
+    
+}
+
+
+.first-sec .right-sec .first-sec-img h4{
+
+    position: relative;
+    z-index: 4;
+    left: 136px;
+    top: 234px;
+    font-size: 13px;
+    width: 25%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ________________left side of the Second section css style_________________________________________ */
+.second-sec{
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+ 
+    width: 100%;
+
+}
+.second-sec .left-sec{
+    width: 50%;
+    display: flex;
+}
+.second-sec .left-sec .first-sec-img img{
+    position: relative;
+    width: 100%;
+    z-index: 50;
+    display: flex;
+
+}
+.second-sec .left-sec .first-sec-img .frame{
+    width: 251px;
+    background-color: #dbaa18a8;
+    border-radius: 19px;
+    top: 53px;
+    left: 79px;
+    height: 213px;
+    position: absolute;
+
+}
+.second-sec .left-sec .first-sec-img .frame1{
+    width: 142px;
+    background-color: #dbaa18a8;
+    border-radius: 19px;
+    top: 110px;
+    left: 171px;
+    z-index: 20;
+    height: 298px;
+    position: absolute;
+
+}
+
+/* ________________right side of the Second section css style_________________________________________ */
+
+.second-sec .right-sec{
+    margin-top: 155px;
+    position: relative;
+    width: 50%;
+    height: 21rem;
+}
+.second-sec .right-sec .tex{
+    width: 68%;
+
+    margin: auto;
+}
+.second-sec .right-sec h1{
+
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 46px;
+    font-family: 'Crete Round', serif;
+}
+.second-sec .right-sec p{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 16px;
+    font-size: 22px;
+
+
+}
+.second-sec .right-sec .tex button{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    
+    padding: 0 22px 36px;
+    font-size: 18px;
+    padding: 20px;
+    border: none;
+    color: antiquewhite;
+    background: #1a1710;
+    border-radius: 35px;
+}
+.second-sec .right-sec .tex button:hover{
+    background-color: #dfb432;
+    color: #1a1710;
+    font-weight: 700;
+}
+/*____________________________ Third section of the webpage__________________________________ */
+.third-sec{
+    margin-top: 85px;
+    position: relative;
+
+    width: 100%;
+    padding-bottom: 46px;
+
+}
+.third-sec .part{
+
+    width: 269px;
+    text-align: -webkit-center;
+}
+.third-sec h1{
+    display: flex;
+    justify-content: center;
+    /* text-transform: capitalize; */
+    font-size: 57px;
+    font-family: 'Crete Round';
+    
+}
+ .p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 88px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.third-sec .final-sec{
+    margin: 47px auto;
+    width: 80%;
+    display: flex;
+}
+.third-sec .final-sec .imga{
+
+    box-shadow: 6px 4px 11px 2px;
+    width: 214px;
+    display: flex;
+    transition: all 0.6s ease-in-out;
+
+
+}
+.third-sec .final-sec .imga:hover{
+    width: 242px;
+}
+.third-sec .imga img{
+    z-index: -5;
+    width: 100%;
+    display: flex;
+
+}
+.third-sec .imga .overlay{
+    /* width: 100%; */
+    display: flex;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* object-fit: cover; */
+    /* opacity: 1; */
+    /* background-color: rgb(0 0 0 / 76%); */
+    background-color: #1a17109c;
+    transition: all 0.3s ease;
+}
+.third-sec .imga .overlay:hover{
+  
+    display: flex;
+  
+    background-color: rgba(0, 0, 0, 0);
+}
+.third-sec .butt-div{
+    margin-top: 24px;
+    width: 100%;
+
+}
+
+.third-sec  button{
+    display: flex;
+    margin: 6px auto;
+    font-size: 18px;
+    padding: 14px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background: #dcae23;
+    border-radius: 30px;
+    font-family: 'Raleway';
+    transition: all 0.5s ease;
+
+}
+.third-sec  button:hover{
+    background-color: #1a1710;
+    color: #cfa938;
+}
+.third-sec  button:hover .overlay{
+    background-color: #1a1710;
+    color: #cfa938;
+}
+.third-sec .comp-bo{
+display: inline
+}
+
+/*______________________ Fourth section css style _________________________________ */
+.fourth-sec{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.fourth-sec .left-sec{
+    position: relative;
+    width: 32%;
+}
+
+.fourth-sec .left-sec h1{
+    justify-content: center;
+    margin-top: 38px;
+    text-transform: capitalize;
+    font-size: 46px;
+    font-family: 'Crete Round', serif;
+}
+
+.fourth-sec .left-sec button{
+    width: 320px;
+    position: relative;
+    margin-left:  91px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 22px 36px;
+    font-size: 18px;
+    padding: 19px;
+    border: none;
+    color: antiquewhite;
+    background: #020201;
+    border-radius: 30px;
+    margin-top: 197px;
+    transition: all 0.5s ease;
+
+}
+.fourth-sec .left-sec button:hover{
+    color: black;
+    background-color:#cfa938;
+}
+
+
+.fourth-sec .right-sec{
+    width: 70%;
+    display: flex;
+}
+
+.fourth-sec .right-sec .first-sec-img img{
+    width: 100%;
+  z-index: 2;
+    display: flex;
+    position: relative;
+}
+/*------------------------------------ Form Section------------------------------------------------ */
+h2{
+    font-size: 40px;
+    font-family: 'Raleway';
+    margin-top: 14px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+.formsec{
+    
+
+    text-align: -webkit-center;
+    width: 100%;
+}
+.formsec form{
+ 
+    width: fit-content;
+}
+.formsec form .parti{
+padding: 6px;
+}
+
+
+
+.formsec form .parti .input{
+    border-radius: 3px;
+    width: 354px;
+    font-weight: 900;
+    padding: 5px;
+    font-family: 'Raleway';
+    border: 1px solid ;
+    transition: all 0.5s ease;
+}
+.formsec form .parti .input:hover{
+    color:#dbaa18;
+}
+
+.formsec form .s{
+    margin: 13px;
+    border-radius: 21px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway';
+    
+    background-color: black;
+    width: 116px;
+    transition: all 0.5s ease-in-out;
+}
+.formsec form .s:hover{
+    
+    font-family: 'Raleway';
+    background-color:#0e740b;
+}
+/* ---------------------------------------------------------------------------- */
+/* __--_-_-_-__________-------_______Footer of the page ________-------_____-------------- */
+.foot{
+    margin-top: 200px;
+    /* border: 2px solid; */
+    display: flex;
+    background:#dbaa18;
+    width: 100%;
+    height: 30%;
+}
+.foot .left-foot{
+    
+    width: 40%;
+    padding: 21px;
+}
+.foot .left-foot h3{
+    padding: 7px;
+    font-family:'Raleway', sans-serif ;
+}
+.foot .left-foot h3 a{
+    text-decoration: none;
+    color: rgb(8, 10, 12);
+}
+.foot .left-foot h4{
+    padding: 7px;
+    color: rgb(3, 4, 5);
+    font-family:'Raleway', sans-serif ;
+}
+/*------------------ left footer ------------------------- */
+.foot .right-foot{
+    display: flex;
+    width: 60%;
+    
+    justify-content: center;
+}
+
+.foot .right-foot .menu1,
+.foot .right-foot .menu2{
+    padding: 21px;
+}
+.foot .right-foot .menu1 ul,
+.foot .right-foot .menu2 ul{
+    padding: 6px;
+    text-decoration: none;
+}
+.foot .right-foot .menu1 ul a,
+.foot .right-foot .menu2 ul a{    
+    margin-top: 10px;
+    font-weight: 900;
+    color: rgb(3 4 5 / 75%);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    transition: 0.2s;
+}
+    .foot .right-foot .menu1 ul a:hover,
+.foot .right-foot .menu2 ul a:hover{
+    color: black;
+}
+
+/* -----------------------------------------------media query for mobiles------------------------------- */
+@media (max-width: 480px) {
+    .head-left {
+        width: 100%;
+        /* border: 2px solid orange; */
+        display: flex;
+    }
+    .head-right {
+        width: 0%;
+    }
+    .head-left .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 55px; */
+    }
+    .head-left .menu ul a {
+        text-decoration: none;
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+        color: #1a1710;
+    }
+    .head-left .menu ul {
+        list-style: none;
+        margin-right: 14px;
+    }
+    .first-sec {
+       display: block;
+    }
+    .first-sec .left-sec {
+        margin-top: 41px;
+        position: relative;
+        width: 100%;
+        height: 21rem;
+    }
+    .first-sec .right-sec {
+    width: 100%;
+    display: flex;
+}
+    .first-sec .right-sec .first-sec-img img {
+        /* left: 240px; */
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        position: relative;
+    }
+    .second-sec {
+        margin-top: 80px;
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .second-sec .left-sec {
+    width: 100%;
+    display: flex;
+}
+    .second-sec .left-sec .first-sec-img .frame1 {
+        width: 142px;
+        background-color: #dbaa18a8;
+        border-radius: 19px;
+        top: -21px;
+        left: 171px;
+        z-index: 20;
+        height: 298px;
+        position: absolute;
+    }
+    .second-sec .right-sec {
+        margin-top: 32px;
+        position: relative;
+        width: 100%;
+        height: 21rem;
+    }
+    .third-sec h1 {
+        display: flex;
+        /* justify-content: center; */
+        text-align: -webkit-center;
+        text-transform: capitalize;
+        font-size: 36px;
+        font-family: 'Crete Round';
+    }
+    .p {
+        display: flex;
+        justify-content: center;
+        text-align: -webkit-center;
+        margin-bottom: 88px;
+        font-size: 26px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .third-sec .final-sec {
+      margin: 47px auto;
+    place-content: center;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .third-sec .part {
+        width: 269px;
+        text-align: -webkit-center;
+        margin-bottom: 30px;
+    }
+    .first-sec-img{
+        margin-top: -45;
+    }
+    .fourth-sec .right-sec {
+        width: 100%;
+        /* display: flex; */
+    }
+    .fourth-sec .left-sec {
+        position: relative;
+        width: 0%;
+    }
+    .fourth-sec .left-sec button {
+        width: 320px;
+        position: relative;
+        margin-left: 91px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0 22px 36px;
+        font-size: 18px;
+        padding: 19px;
+        border: none;
+        color: antiquewhite;
+        background: #020201;
+        border-radius: 30px;
+        margin-top: 232px;
+        transition: all 0.5s ease;
+    }
+    .foot {
+        margin-top: 111px;
+        /* border: 2px solid; */
+        display: flex;
+        background: #dbaa18;
+        width: 100%;
+        height: 30%;
+    }
+    }
