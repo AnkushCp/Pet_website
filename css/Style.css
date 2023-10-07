@@ -49,21 +49,17 @@ color: #1a1710;
 }
 
 /*________________________ header right style ________________________________________________________________________________*/
-.head-right{
-   
+.head-right {
     width: 50%;
     display: flex;
-
-    
+    align-items: center;
 }
-.head-right .button-group{
-    position: relative;
-    left: 400px;
+.head-right .button-group {
+    position: absolute;
+    right: 36px;
     z-index: 6;
     display: flex;
-    /* margin-left: 478px; */
     align-items: center;
-
 }
 .head-right .button-group .ham{
     display: none;
@@ -396,7 +392,8 @@ color: #1a1710;
     
 }
 .third-sec .final-sec{
-    margin: 47px auto;
+ margin: 47px auto;
+    justify-content: center;
     width: 80%;
     display: flex;
 }
